@@ -31,10 +31,6 @@ def insert(code,amount):
 
 def main(page:Page):
     page.title = "App"
-    page.window.width = 390
-    page.window.height = 640
-    page.window.left = 880
-    page.window.top = 1
     page.scroll = "auto"
     page.theme_mode = ThemeMode.LIGHT
 
